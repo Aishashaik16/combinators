@@ -1,0 +1,20 @@
+/*ans-1*/
+.container p {
+    background-color: pink;
+}
+/*ans-2*/
+.wrapper>.header+.content>ul>li {
+    background-color: pink;
+}
+/*ans-3*/
+.outer p {
+    background-color: pink;
+}
+/*ans-4*/
+.section+.section>p {
+    background-color: pink;
+}
+/*ans-5*/
+h1~p{
+    background-color: pink;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--Q-1=Write a CSS rule using the descendant combinator to style  the <p> elements inside .container.-->
+    <div class="container">
+        <p>This is a paragraph.</p>
+        <div>
+            <p>Another paragraph inside a div.</p>
+        </div>
+    </div>
+    <!--Q-2=Write a CSS rule to style only the <li> elements inside the .content but not inside the .header.-->
+    <div class="wrapper">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+            </ul>
+        </div>
+    </div>
+    <!--Q-3=Write a CSS rule using a combination of combinators to style only the <p> element inside .deep without using a direct class selector for .deep.-->
+    <div class="outer">
+        <div class="inner">
+            <div class="deep">
+                <p>Target me</p>
+            </div>
+        </div>
+    </div>
+    <!--q-4=Write a CSS rule to style only the <p> elements inside the second .section.-->
+    <div class="container">
+        <div class="section">
+            <h3>Title</h3>
+            <p>Paragraph 1</p>
+        </div>
+        <div class="section">
+            <h3>Title</h3>
+            <p>Paragraph 2</p>
+        </div>
+    </div>
+    <!--q-5=Write a CSS rule to style only the <p> elements that are siblings of both an <h1> and a <ul>.-->
+    <div>
+        <h1>Main Title</h1>
+        <p>First Paragraph</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+        <p>Second Paragraph</p>
+    </div>
+</body>
+
+</html>
